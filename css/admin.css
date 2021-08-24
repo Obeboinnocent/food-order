@@ -1,0 +1,175 @@
+/* 
+    Author: Innocent Nyangenyo;
+    Theme: Food order website admin;
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+}
+
+.tbl-30{
+    width: 45%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+
+table tr td{
+    padding: 1%;
+}
+
+form table tr td .enter{
+    border: none;
+    height: 30px;
+    width: 100%;
+    border-radius: 20px;
+    padding: .4rem 1rem;
+    outline: none;
+    font-family: 'Poppins';
+    
+}
+
+form table tr td .btn-submit{
+    border: none;
+    outline: none;
+    padding: .5rem 1rem;
+    
+}
+
+.btn-primary{
+    background-color: #5352ed;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.success{
+    color: #009432;
+    font-weight: bold;
+}
+
+.error{
+    color: #e84118;
+}
+
+.btn-secondary{
+    background-color: #1dd1a1;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover{
+    background-color: #10ac84;
+}
+
+.btn-danger{
+    background-color: #ff6b81;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+
+/* CSS for menu */
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.menu li{
+    display: inline;
+    padding: 1%;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #57606f;
+}
+
+.menu ul li a:hover{
+    color: #2f3542;
+}
+
+/* CSS for main content */
+.main-content{
+    background-color: #ecf0f1;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    border-radius: 20px;
+    float: left;
+}
+
+
+/* CSS for footer */
+.footer{
+    background-color: #747d8c;
+    color: white;
+}
+
+.footer .wrapper .text-center a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border-radius: 15px;
+    padding: 2px 15px;
+    transition: 0.5s;
+}
+
+.footer .wrapper .text-center a:hover{
+    color: black;
+    background-color: rgb(240, 240, 240);
+}
